@@ -31,7 +31,7 @@
 
         }
 
-        &:hover &--hoverEye {
+        &:active &--hoverEye {
             @keyframes hover {
                 from {
                     width: 0%;
@@ -59,7 +59,7 @@
         color: #FFFFFF;
 
         
-        &:hover {
+        &:active {
             color: #00FFF8;
         }
 
@@ -148,7 +148,7 @@
 
         }
 
-        &--name:hover {
+        &--name:active {
             color: #00FFF8;
         }
     }

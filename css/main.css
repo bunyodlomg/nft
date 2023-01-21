@@ -443,7 +443,7 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-.card__img:hover .card__img--hoverEye {
+.card__img:active .card__img--hoverEye {
   display: block;
   background: #00FFF8;
   opacity: 0.5;
@@ -476,7 +476,7 @@ body {
   line-height: 28px;
   color: #FFFFFF;
 }
-.card__title:hover {
+.card__title:active {
   color: #00FFF8;
 }
 .card__desc {
@@ -551,6 +551,6 @@ body {
   margin-left: 5px;
   color: #FFFFFF;
 }
-.card__author--name:hover {
+.card__author--name:active {
   color: #00FFF8;
 }/*# sourceMappingURL=main.css.map */
